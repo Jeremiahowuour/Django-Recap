@@ -7,5 +7,5 @@ urlpatterns = [
     path('read-books', views.readBooks, name='readBooks'),
     path('read-one-book/<str:pk>', views.readOneBook, name='readOneBook'),
     path('update-book/<str:pk>', views.updateBook, name='updateBook'),
-    
+    path('delete-book/<str:pk>', views.deleteBook, name='deleteBook'),
 ]

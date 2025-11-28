@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,6 +16,27 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <style>
+      .book-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .book-details img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .book-details p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     {% include 'navbar.html' %}
